@@ -19,6 +19,7 @@
   "homepage": "https://github.com/DeveloperDAO5085/MintYourNFT#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
     "ether": "^0.0.9",
@@ -27,6 +28,8 @@
     "hardhat": "^2.6.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.3.3"
+    "@openzeppelin/contracts": "^4.3.3",
+    "base64-sol": "^1.1.0",
+    "dotenv": "^10.0.0"
   }
 }
